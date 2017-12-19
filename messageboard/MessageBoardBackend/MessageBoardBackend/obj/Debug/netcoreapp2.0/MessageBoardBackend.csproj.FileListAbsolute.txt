@@ -1,0 +1,11 @@
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.deps.json
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.runtimeconfig.json
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.runtimeconfig.dev.json
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.dll
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.pdb
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.csproj.CoreCompileInputs.cache
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.AssemblyInfoInputs.cache
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.AssemblyInfo.cs
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.dll
+C:\Users\Kyle\Desktop\Dev\messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.pdb

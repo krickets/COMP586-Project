@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace MessageBoardBackend.Controllers
+{
+    [Produces("application/json")]
+    [Route("api/Messages")]
+    public class MessagesController : Controller
+    {
+        readonly ApiContext context;
+
+        /*static List<Models.Message> messages = new
+          List<Models.Message>{
+            new Models.Message
+                {
+                    Owner = "John",
+                    Text = "hello"
+                },
+                new Models.Message
+                {
+                    Owner = "Tim",
+                    Text = "Hi"
+                }
+        };*/
+
+        public MessagesController(ApiContext context)
+        {
+            this.context = context;
+        }
+
+        public IEnumerable<Models.Message> Get()
+        {
+            return context.Messages;
+        }
+
+        [HttpGet("{name}")]
+        public IEnumerable<Models.Message> Get(string name)
+        {
+            return context.Messages.Where(message => message.Owner == name);
+        }
+
+        [HttpPost]
+        public Models.Message Post([FromBody] Models.Message message)
+        {
+            var dbMessage = context.Messages.Add(message).Entity;
+            context.SaveChanges();
+            return message;
+        }
+    }
+}
